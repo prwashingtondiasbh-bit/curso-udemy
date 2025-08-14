@@ -1,0 +1,101 @@
+# x = y = z = 0
+
+# x = int(input('Digite um numero:'))
+
+# y = int(input('Digite outro numero:'))
+
+# z = x + y
+
+# print('A soma dos dois numeros é',z)
+# nota1 = nota2 = media = 0
+
+
+# # nota1 = float(input('Digite a primeira nota: '))
+# # nota2 = float(input('Digite a segunda nota: '))
+
+# # media = (nota1 + nota2) / 2
+
+# # if (media >= 7):
+# #     print("Aluno aprovado!")
+
+# # elif (media >= 5):
+# #     print("Alundo de recuperação")
+
+# # else:
+# #     print("Aluno reprovado!")
+
+# # print('Média do Aluno {}'.format(media))
+
+# # nome = 'Washington'
+# # idade = 42
+
+# # print(f"Nome: {nome}\t idade: {idade}\t")
+
+
+# # num = 1
+
+# # while (num <=10):
+# #     print(num)
+# #     num += 1
+# # print("Laço encerrado!")
+
+
+# # nome = None
+
+# # while True:
+# #     print('Digite seu nome, ou (x) para parar:')
+# #     nome = input()
+# #     if nome == 'x' or nome == 'X':
+# #         break
+# #     print(f'Seja bem vindo {nome}')
+
+# # print('Até logo')
+
+
+# # lista = [1,2,3,4,6,8,10]
+
+# # for item in lista:
+# #     print(item)
+
+
+
+# # for num in range(1,11):
+# #     print(num)
+
+
+
+# # nome = input('Digite seu nome: ')
+
+# # for x in range(10):
+# #     print(f'{x+1} {nome}')
+
+
+# # for x in range(20,2,-2):
+# #     print(x)
+
+
+
+# # pedras = ('Turmalina', 'Ouro', 'Safira', 'Diamante')
+
+# # for pedra in pedras:
+# #     if pedra == 'Ouro' or pedra == 'Turmalina':
+# #         continue
+# #     print(pedra)
+
+
+
+# # for cont_ex in range(1,6):
+# #     print(f'\nRodada: {cont_ex}')
+# #     for cont_in in range(6,1,-1):
+# #         print(f'Valor: {cont_in}')
+
+
+# # print(f'Fim da rodada')
+
+import random
+
+for A in range(1,6):
+    print(f'\nConjunto {A}')
+    for B in range(5):
+        num = random.randint(1,1000)
+        print(f'Valor {num}')
